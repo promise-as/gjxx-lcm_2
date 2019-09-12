@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.jg-wx .wx .wx-l .detail .praise .icon, .jg-wx .wx .wx-r .r-feature span, .jg-wx .wx .wx-r .detail li:before, .jg-wx .wx .wx-r .detail li span, .jg-wx .wx .wx-r .r-in .btn a, .jg-wx .wx .wx-r .r-in .btn a.has-icon:before { display: inline-block; *zoom: 1; *display: inline; }
+
+.jg-wx .wx, .jg-wx .wx .wx-r .detail li, .jg-wx .wx .wx-r .r-in .btn { zoom: 1; }
+
+.jg-wx .wx:after, .jg-wx .wx .wx-r .detail li:after, .jg-wx .wx .wx-r .r-in .btn:after { clear: both; }
+
+.jg-wx .wx:before, .jg-wx .wx .wx-r .detail li:before, .jg-wx .wx .wx-r .r-in .btn:before, .jg-wx .wx:after, .jg-wx .wx .wx-r .detail li:after, .jg-wx .wx .wx-r .r-in .btn:after { content: ""; display: table; }
+
+/* 国际学校模块-热门机构推荐 2019-09-12 */
+.jg-form { margin: 0 auto; width: 740px; height: 386px; background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/form.png") no-repeat center; padding: 265px 14px 23px 18px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.jg-form .form { width: 705px; height: 98px; background-color: #ffffff; -webkit-box-shadow: 0px 8px 16px 0px rgba(255, 133, 89, 0.42); box-shadow: 0px 8px 16px 0px rgba(255, 133, 89, 0.42); border-radius: 10px; padding-top: 25px; padding-left: 10px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.jg-form .form input { width: 163px; height: 48px; line-height: 48px; background-color: #f4f4f4; border-radius: 6px; border: solid 1px #eeeeee; -webkit-box-sizing: border-box; box-sizing: border-box; margin-right: 8px; text-indent: 1em; font-family: MicrosoftYaHei; font-size: 15px; }
+
+.jg-form .form input[type="text"] { appearance: none; -moz-appearance: none; -webkit-appearance: none; }
+
+.jg-form .form input[type="text"]::-webkit-input-placeholder { color: #777777; font-size: inherit; }
+
+.jg-form .form input[type="text"]:-moz-placeholder { color: #777777; font-size: inherit; }
+
+.jg-form .form input[type="text"]::-moz-placeholder { color: #777777; font-size: inherit; }
+
+.jg-form .form input[type="text"]:-ms-input-placeholder { color: #777777; font-size: inherit; }
+
+.jg-form .form input[type="submit"] { background-image: -webkit-gradient(linear, right top, left top, from(#ff893f), to(#f7c061)); background-image: linear-gradient(-90deg, #ff893f 0%, #f7c061 100%); font-size: 18px; color: #ffffff; text-indent: 0; }
+
+.jg-form .form .zx { display: none; }
+
+.jg-wx { width: 750px; margin: 0 auto; background-color: #f7f7f7; padding: 24px 20px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; }
+
+.jg-wx .wx { background-color: #ffffff; border-radius: 9px; padding: 4px 0 6px; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 16px; }
+
+.jg-wx .wx .wx-l { float: left; width: 194px; height: 100%; padding-top: 20px; padding-left: 20px; padding-right: 14px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; }
+
+.jg-wx .wx .wx-l .l-bg { margin-bottom: 10px; }
+
+.jg-wx .wx .wx-l .detail .title { font-size: 18px; line-height: 26px; color: #444444; margin-bottom: 10px; }
+
+.jg-wx .wx .wx-l .detail .praise { padding-top: 0px; }
+
+.jg-wx .wx .wx-l .detail .praise .icon { width: 16px; height: 17px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_3.png") no-repeat; background-size: 100% 100%; }
+
+.jg-wx .wx .wx-l .detail .praise .kb { display: block; font-size: 14px; line-height: 21px; color: #999999; }
+
+.jg-wx .wx .wx-r { float: left; padding-top: 20px; padding-left: 18px; padding-right: 20px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; border-left: 4px solid #f7f7f7; }
+
+.jg-wx .wx .wx-r .r-feature { text-align: left; }
+
+.jg-wx .wx .wx-r .r-feature span { width: 100px; height: 33px; line-height: 30px; background-color: #ffffff; border-radius: 15px; border: solid 1px #ff7f00; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 16px; color: #ff7f00; margin-right: 12px; text-align: center; }
+
+.jg-wx .wx .wx-r .detail li { font-size: 14px; line-height: 21px; color: #666666; text-align: left; padding-top: 20px; }
+
+.jg-wx .wx .wx-r .detail li:before { content: ''; width: 7px; height: 7px; border: solid 2px #ff7f00; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 100%; margin-right: 6px; float: left; margin-top: 8px; }
+
+.jg-wx .wx .wx-r .detail li span { float: left; width: 458px; }
+
+.jg-wx .wx .wx-r .r-in .open-day { float: right; font-size: 14px; line-height: 26px; color: #999999; text-decoration: underline; }
+
+.jg-wx .wx .wx-r .r-in .btn { text-align: left; margin-left: 16px; margin-top: 20px; margin-bottom: 18px; }
+
+.jg-wx .wx .wx-r .r-in .btn a { width: 103px; height: 33px; background-color: #f7f7f7; -webkit-box-shadow: inset 0px 8px 21px 6px rgba(255, 244, 229, 0.35); box-shadow: inset 0px 8px 21px 6px rgba(255, 244, 229, 0.35); border-radius: 4px; font-size: 14px; line-height: 33px; color: #ff7f00; text-align: center; text-decoration: underline; }
+
+.jg-wx .wx .wx-r .r-in .btn a.has-icon:before { content: ''; width: 13px; height: 13px; margin-right: 4px; vertical-align: middle; }
+
+.jg-wx .wx .wx-r .r-in .btn a:first-child { margin-right: 16px; }
+
+.jg-wx .wx .wx-r .r-in .btn a:first-child:before { background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/icon_2.png") no-repeat; background-size: 100% 100%; }
+
+.jg-wx .wx .wx-r .r-in .btn a:nth-of-type(2) { margin-right: 16px; }
+
+.jg-wx .wx .wx-r .r-in .btn a:nth-of-type(2):before { height: 14px; background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/icon_1.png") no-repeat; background-size: 100% 100%; }
+
+@media screen and (max-width: 750px) { .jg-form { margin: 0; width: 100%; height: 7.49333rem; background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/form-wap.png") no-repeat center; background-size: 100% 100%; padding: 4.18667rem 0.37333rem 0.4rem; }
+  .jg-form .form { width: 100%; height: 2.90667rem; -webkit-box-shadow: 0px 0.10667rem 0.21333rem 0px rgba(255, 133, 89, 0.42); box-shadow: 0px 0.10667rem 0.21333rem 0px rgba(255, 133, 89, 0.42); border-radius: 0.13333rem; padding: 0.33333rem 0.21333rem 0.30667rem 0.22667rem; display: grid; grid-template-columns: repeat(2, 1fr); grid-column-gap: 0.24rem; grid-row-gap: 0.21333rem; }
+  .jg-form .form input { width: 3.86667rem; height: 1.02667rem; line-height: 1.02667rem; border-radius: 0.08rem; font-size: 0.37333rem; float: left; margin-right: 0; }
+  .jg-form .form input[type="submit"] { font-size: 0.37333rem; }
+  .jg-form .form .wap-hide { display: none; }
+  .jg-form .form .zx { display: block; width: 3.86667rem; height: 1.02667rem; line-height: 1.02667rem; background-image: -webkit-gradient(linear, right top, left top, from(#ff893f), to(#f7c061)); background-image: linear-gradient(-90deg, #ff893f 0%, #f7c061 100%); border-radius: 0.08rem; font-size: 0.37333rem; text-align: center; color: #ffffff; }
+  .jg-wx { width: 100%; padding: 0; }
+  .jg-wx .wx { padding: 0 0.25333rem 0.32rem 0.26667rem; border-radius: 0.12rem; margin-bottom: 0.30667rem; }
+  .jg-wx .wx .wx-l { float: none; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; padding: 0.24rem 0 0.29333rem 0; }
+  .jg-wx .wx .wx-l .l-bg { width: 2.69333rem; height: 1.01333rem; margin-right: 0.37333rem; margin-bottom: 0; }
+  .jg-wx .wx .wx-l .detail { border-left: 1px solid #dfdfdf; padding-left: 0.37333rem; }
+  .jg-wx .wx .wx-l .detail .title { font-size: 0.4rem; line-height: 0.42667rem; margin-bottom: 0.13333rem; border-bottom: 0; }
+  .jg-wx .wx .wx-l .detail .praise { text-align: left; }
+  .jg-wx .wx .wx-l .detail .praise .icon { width: 0.22667rem; height: 0.25333rem; }
+  .jg-wx .wx .wx-l .detail .praise .kb { display: inline-block; font-size: 0.29333rem; line-height: 0.29333rem; color: #ff8d4e; }
+  .jg-wx .wx .wx-r { float: none; padding: 0; border-left: 0; border-top: 0.05333rem solid #F7F7F7; padding-top: 0.29333rem; }
+  .jg-wx .wx .wx-r .r-feature span { width: 1.93333rem; height: 0.64rem; line-height: 0.61333rem; font-size: 0.32rem; margin-right: 0.13333rem; }
+  .jg-wx .wx .wx-r .detail li { font-size: 0.32rem; line-height: 0.41333rem; padding-top: 0.26667rem; }
+  .jg-wx .wx .wx-r .detail li:before { width: 0.18667rem; height: 0.18667rem; border: 0.05333rem solid #ff7f00; margin-top: 0.05333rem; }
+  .jg-wx .wx .wx-r .detail li span { width: 8rem; }
+  .jg-wx .wx .wx-r .r-in .open-day { float: left; width: 100%; text-align: left; padding-top: 0.26667rem; font-size: 0.32rem; line-height: 0.34667rem; margin-bottom: 0.4rem; }
+  .jg-wx .wx .wx-r .r-in .btn { margin: 0; }
+  .jg-wx .wx .wx-r .r-in .btn a { clear: both; width: 4rem; height: 0.82667rem; line-height: 0.82667rem; font-size: 0.32rem; }
+  .jg-wx .wx .wx-r .r-in .btn a.has-icon:before { margin-right: 0.12rem; }
+  .jg-wx .wx .wx-r .r-in .btn a:first-child { margin-right: 0.24rem; }
+  .jg-wx .wx .wx-r .r-in .btn a:first-child:before { width: 0.30667rem; height: 0.34667rem; }
+  .jg-wx .wx .wx-r .r-in .btn a:nth-of-type(2) { margin-right: 0; }
+  .jg-wx .wx .wx-r .r-in .btn a:nth-of-type(2):before { width: 0.34667rem; line-height: 0.36rem; } }

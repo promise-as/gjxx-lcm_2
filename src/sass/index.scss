@@ -1,0 +1,423 @@
+%one {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+%in-b {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+%clearfix {
+  zoom: 1;
+  &:after {
+    clear: both;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+}
+/* 国际学校模块-热门机构推荐 2019-09-12 */
+.jg-form{
+  margin: 0 auto;
+  width: 740px;
+  height: 386px;
+  background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/form.png") no-repeat center;
+  padding: 265px 14px 23px 18px;
+  box-sizing: border-box;
+  .form{
+    width: 705px;
+    height: 98px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px
+    rgba(255, 133, 89, 0.42);
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    input{
+      width: 163px;
+      height: 48px;
+      line-height: 48px;
+      background-color: #f4f4f4;
+      border-radius: 6px;
+      border: solid 1px #eeeeee;
+      box-sizing: border-box;
+      margin-right: 8px;
+      text-indent: 1em;
+      font-family: MicrosoftYaHei;
+      font-size: 15px;
+    }
+    input[type="text"]{
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none; // 去除safari浏览器的内阴影
+      &::-webkit-input-placeholder {
+        color: #777777;
+        font-size: inherit;
+      }
+      &:-moz-placeholder {
+        color: #777777;
+        font-size: inherit;
+      }
+      &::-moz-placeholder {
+        color: #777777;
+        font-size: inherit;
+      }
+      &:-ms-input-placeholder {
+        color: #777777;
+        font-size: inherit;
+      }
+    }
+    input[type="submit"]{
+      background-image: linear-gradient(-90deg,
+          #ff893f 0%,
+          #f7c061 100%);
+      font-size: 18px;
+      color: #ffffff;
+      text-indent: 0;
+    }
+    .zx{
+      display: none;
+    }
+  }
+}
+.jg-wx{
+  width: 750px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 24px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  .wx{
+    @extend %clearfix;
+    background-color: #ffffff;
+    border-radius: 9px;
+    padding: 4px 0 6px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    .wx-l{
+      float: left;
+      width: 194px;
+      height: 100%;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 14px;
+      box-sizing: border-box;
+      text-align: center;
+      .l-bg{
+        margin-bottom: 10px;
+      }
+      .detail{
+        .title{
+          font-size: 18px;
+          line-height: 26px;
+          color: #444444;
+          margin-bottom: 10px;
+        }
+        .praise{
+          padding-top: 0px;
+          .icon{
+            @extend %in-b;
+            width: 16px;
+            height: 17px;
+            background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_3.png") no-repeat;
+            background-size: 100% 100%;
+          }
+          .kb{
+            display: block;
+            font-size: 14px;
+            line-height: 21px;
+            color: #999999;
+          }
+        }
+      }
+
+    }
+    .wx-r{
+      float: left;
+      padding-top: 20px;
+      padding-left: 18px;
+      padding-right: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      border-left: 4px solid #f7f7f7;
+      .r-feature{
+        text-align: left;
+        span{
+          @extend %in-b;
+          width: 100px;
+          height: 33px;
+          line-height: 30px;
+          background-color: #ffffff;
+          border-radius: 15px;
+          border: solid 1px #ff7f00;
+          box-sizing: border-box;
+          font-size: 16px;
+          color: #ff7f00;
+          margin-right: 12px;
+          text-align: center;
+        }
+
+      }
+      .detail{
+        li{
+          font-size: 14px;
+          line-height: 21px;
+          color: #666666;
+          text-align: left;
+          padding-top: 20px;
+          @extend %clearfix;
+          &:before{
+            @extend %in-b;
+            content: '';
+            width: 7px;
+            height: 7px;
+            border: solid 2px #ff7f00;
+            box-sizing: border-box;
+            border-radius: 100%;
+            margin-right: 6px;
+            float: left;
+            margin-top: 8px;
+          }
+          span{
+            @extend %in-b;
+            float: left;
+            width: 458px;
+          }
+        }
+      }
+      .r-in{
+        .open-day{
+          float: right;
+          font-size: 14px;
+          line-height: 26px;
+          color: #999999;
+          text-decoration: underline;
+        }
+        .btn{
+          text-align: left;
+          margin-left: 16px;
+          margin-top: 20px;
+          margin-bottom: 18px;
+          @extend %clearfix;
+          a{
+            @extend %in-b;
+            width: 103px;
+            height: 33px;
+            background-color: #f7f7f7;
+            box-shadow: inset 0px 8px 21px 6px
+            rgba(255, 244, 229, 0.35);
+            border-radius: 4px;
+            font-size: 14px;
+            line-height: 33px;
+            color: #ff7f00;
+            text-align: center;
+            text-decoration: underline;
+            &.has-icon{
+              &:before{
+                @extend %in-b;
+                content: '';
+                width: 13px;
+                height: 13px;
+                margin-right: 4px;
+                vertical-align: middle;
+              }
+            }
+            &:first-child{
+              margin-right: 16px;
+              &:before{
+                background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/icon_2.png") no-repeat;
+                background-size: 100% 100%;
+              }
+            }
+            &:nth-of-type(2){
+              margin-right: 16px;
+              &:before{
+                height: 14px;
+                background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/icon_1.png") no-repeat;
+                background-size: 100% 100%;
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
+
+$browser-default-font-size: 75px !default;
+;@function pr($px) {
+  @return $px / $browser-default-font-size * 1rem;
+}
+@media screen and (max-width: 750px){
+  .jg-form{
+    margin: 0;
+    width: 100%;
+    height: pr(562px);
+    background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/form-wap.png") no-repeat center;
+    background-size: 100% 100%;
+    padding: pr(314px) pr(28px) pr(30px);
+    .form{
+      width: 100%;
+      height: pr(218px);
+      box-shadow: 0px pr(8px) pr(16px) 0px
+      rgba(255, 133, 89, 0.42);
+      border-radius: pr(10px);
+      padding: pr(25px) pr(16px) pr(23px) pr(17px);
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: pr(18px);
+      grid-row-gap: pr(16px);
+      input{
+        width: pr(290px);
+        height: pr(77px);
+        line-height: pr(77px);
+        border-radius: pr(6px);
+        font-size: pr(28px);
+        float: left;
+        margin-right: 0;
+      }
+      input[type='submit']{
+        font-size: pr(28px);
+      }
+
+      .wap-hide{
+        display: none;
+      }
+      .zx{
+        display: block;
+        width: pr(290px);
+        height: pr(77px);
+        line-height: pr(77px);
+        background-image: linear-gradient(-90deg,
+            #ff893f 0%,
+            #f7c061 100%);
+        border-radius: pr(6px);
+        font-size: pr(28px);
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+  }
+  .jg-wx{
+    width: 100%;
+    padding: 0;
+    .wx{
+      padding: 0 pr(19px) pr(24px) pr(20px);
+      border-radius: pr(9px);
+      margin-bottom: pr(23px);
+      .wx-l{
+        float: none;
+        width: 100%;
+        display: flex;
+        padding: pr(18px) 0 pr(22px) 0;
+        .l-bg{
+          width: pr(202px);
+          height: pr(76px);
+          margin-right: pr(28px);
+          margin-bottom: 0;
+        }
+        .detail{
+          border-left: 1px solid #dfdfdf;
+          padding-left: pr(28px);
+          .title{
+            font-size: pr(30px);
+            line-height: pr(32px);
+            margin-bottom: pr(10px);
+            border-bottom: 0;
+          }
+          .praise{
+            text-align: left;
+            .icon{
+              width: pr(17px);
+              height: pr(19px);
+            }
+            .kb{
+              display: inline-block;
+              font-size: pr(22px);
+              line-height: pr(22px);
+              color: #ff8d4e;
+            }
+          }
+        }
+      }
+      .wx-r{
+        float: none;
+        padding: 0;
+        border-left: 0;
+        border-top: pr(4px) solid #F7F7F7;
+        padding-top: pr(22px);
+        .r-feature{
+          span{
+            width: pr(145px);
+            height: pr(48px);
+            line-height: pr(46px);
+            font-size: pr(24px);
+            margin-right: pr(10px);
+          }
+        }
+        .detail{
+          li{
+            font-size: pr(24px);
+            line-height: pr(31px);
+            padding-top: pr(20px);
+            &:before{
+              width: pr(14px);
+              height: pr(14px);
+              border: pr(4px) solid #ff7f00;
+              margin-top: pr(4px);
+            }
+            span{
+              width: pr(600px);
+            }
+          }
+        }
+        .r-in{
+          .open-day{
+            float: left;
+            width: 100%;
+            text-align: left;
+            padding-top: pr(20px);
+            font-size: pr(24px);
+            line-height: pr(26px);
+            margin-bottom: pr(30px);
+          }
+          .btn{
+            margin: 0;
+            a{
+              clear: both;
+              width: pr(300px);
+              height: pr(62px);
+              line-height: pr(62px);
+              font-size: pr(24px);
+              &.has-icon{
+                &:before{
+                  margin-right: pr(9px);
+                }
+              }
+              &:first-child{
+                margin-right: pr(18px);
+                &:before{
+                  width: pr(23px);
+                  height: pr(26px);
+
+                }
+              }
+              &:nth-of-type(2){
+                margin-right: 0;
+                &:before{
+                  width: pr(26px);
+                  line-height: pr(27px);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
