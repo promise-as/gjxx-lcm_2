@@ -25,8 +25,31 @@
   width: 740px;
   height: 386px;
   background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/form.png") no-repeat center;
-  padding: 265px 14px 23px 18px;
+  padding: 40px 14px 23px 18px;
   box-sizing: border-box;
+  .txt{
+    margin-left: 416px;
+    .txt-item{
+      width: 288px;
+      height: 49px;
+      line-height: 49px;
+      //border: 1px solid red;
+      margin-bottom: 8px;
+      box-sizing: border-box;
+      color: #5fb2cc;
+      font-size: 22px;
+      text-align: center;
+    }
+    .txt-btn{
+      display: block;
+      width: 97px;
+      height: 20px;
+      //border: 1px solid red;
+      margin-left: 76px;
+      margin-top: 14px;
+      margin-bottom: 28px;
+    }
+  }
   .form{
     width: 705px;
     height: 98px;
@@ -38,7 +61,7 @@
     padding-left: 10px;
     box-sizing: border-box;
     input{
-      width: 163px;
+      width: 162px;
       height: 48px;
       line-height: 48px;
       background-color: #f4f4f4;
@@ -260,18 +283,49 @@ $browser-default-font-size: 75px !default;
     height: pr(562px);
     background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/form-wap.png") no-repeat center;
     background-size: 100% 100%;
-    padding: pr(314px) pr(28px) pr(30px);
+    padding: pr(11px) pr(28px) pr(30px);
+    .txt{
+      margin-left: pr(460px);
+      .txt-item{
+        width: pr(174px);
+        height: auto;
+        font-size: pr(23px);
+        line-height: pr(32px);
+        margin-bottom: pr(20px);
+        margin-top: pr(8px);
+        background-color: #ffffff;
+        border-radius: pr(12px);
+        padding: pr(20px) 0 pr(10px);
+        position: relative;
+        &:before{
+          display: block;
+          content: "";
+          width: pr(27px);
+          height: pr(27px);
+          background: url("https://img.thea.cn/public/platform/thea/201909/hbj/gjxx-mk_2/images/icon_3.png") no-repeat;
+          background-size: 100% 100%;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: pr(-14px);
+          margin: auto;
+        }
+      }
+      .txt-btn{
+        display: none;
+      }
+    }
     .form{
       width: 100%;
-      height: pr(218px);
+      height: auto;
       box-shadow: 0px pr(8px) pr(16px) 0px
       rgba(255, 133, 89, 0.42);
       border-radius: pr(10px);
-      padding: pr(25px) pr(16px) pr(23px) pr(17px);
+      padding: pr(10px) pr(16px) pr(10px) pr(17px);
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: pr(18px);
-      grid-row-gap: pr(16px);
+      grid-row-gap: pr(10px);
       input{
         width: pr(290px);
         height: pr(77px);
